@@ -129,6 +129,31 @@
     
     
     <entry>
+      <title>C++ -- Hello World</title>
+      <link href="/2024/06/03/c++1--helloworld/"/>
+      <url>/2024/06/03/c++1--helloworld/</url>
+      
+        <content type="html"><![CDATA[<hr><h1 id="学习C-的原因"><a href="#学习C-的原因" class="headerlink" title="学习C++的原因"></a>学习C++的原因</h1><p>学习C++的原因其实十多个方面的原因<br>    首先是因为自己想去学点什么其他的东西；<br>    其次就是因为之前有人跟我说过学好C++，再把数据结构那些基础搞扎实就行了；<br>    最重要的就是，其实我是想看C来着，因为嵌入式开发好像是用的C，但是因为已经学过C了，就想着再看看和C类似的C++，都现在了学一门语言也用不了多少时间</p><h1 id="首先是编译工具的选择"><a href="#首先是编译工具的选择" class="headerlink" title="首先是编译工具的选择"></a>首先是编译工具的选择</h1><p>我还是一样，支持vscode，虽然我看的教学使用的cl，但是我还是想着，因为vscode什么都能写，我很爱这种万能的，哪怕用起来会有一点麻烦。</p><h1 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h1><p>下载的话就下载两个玩意儿：一个是编译器vscode，另一个就是C++要用到的mingw，这个是windows下编译C++的编译器，这个下载好了之后要设置一下环境变量才可以使用<br>之后就直接去vscode里面下载一下C++的扩展</p><h1 id="第一个代码"><a href="#第一个代码" class="headerlink" title="第一个代码"></a>第一个代码</h1><p>这个地方是很他妈的曲折的，觉得一切准备就绪了就一直给我报错说什么.exe不存在，之后就一直让我去lauch.json文件里面更改，找了好多个教程都没有搞出来，最后是全部推倒之后参考了<a href="https://blog.csdn.net/qq_50813669/article/details/124461328">这个教程</a>才成功运行除了helloworld<br>还是给一下helloworld的源代码吧</p><figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="comment">//前两行是预处理指令</span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"></span><br><span class="line"><span class="comment">//主函数</span></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="comment">//逻辑代码</span></span><br><span class="line">    cout &lt;&lt; <span class="string">&quot;Hello World&quot;</span> &lt;&lt; endl;<span class="comment">//cout是对外输出，endl是换行符，中间是对外输出的信息</span></span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><hr>]]></content>
+      
+      
+      <categories>
+          
+          <category> 语言 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> C++ </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>问答网站(整体框架，User模型，根目录的展示以及注册页面的展示)</title>
       <link href="/2024/06/03/%E9%97%AE%E7%AD%94%E7%BD%91%E7%AB%99/"/>
       <url>/2024/06/03/%E9%97%AE%E7%AD%94%E7%BD%91%E7%AB%99/</url>
